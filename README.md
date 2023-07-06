@@ -17,6 +17,6 @@ Sistema de gerenciamento de vendas de uma organização. Cada venda precisa ter:
 
 #### :coffee: O que utilizei no desenvolvimento? :coffee:
 - Princípios de SOLID;
-- Programação orientada à objetos: polimorfismo, encapsulamento, herança.
+- Programação orientada à objetos: polimorfismo, encapsulamento, herança, tratamento de exceções.
 
 
