@@ -21,45 +21,15 @@ public class Vendas {
     }
 
     //GETTERS E SETTERS
-    public String getItem() {
-        return item;
-    }
-
-    public void setItem(String item) {
-        this.item = item;
-    }
-
-    public double getPreço() {
-        return preço;
-    }
-
-    public void setPreço(double preço) {
-        this.preço = preço;
-    }
 
     public String getCpfCliente() {
         return cpfCliente;
-    }
-
-    public void setCpfCliente(String cpfCliente) {
-        this.cpfCliente = cpfCliente;
     }
 
     public String getEmailVendedor() {
         return emailVendedor;
     }
 
-    public void setEmailVendedor(String emailVendedor) {
-        this.emailVendedor = emailVendedor;
-    }
-
-    public LocalDate getData() {
-        return data;
-    }
-
-    public void setData(LocalDate data) {
-        this.data = data;
-    }
 
     @Override
     public String toString() {

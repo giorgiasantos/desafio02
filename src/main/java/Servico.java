@@ -20,18 +20,6 @@ public class Servico {
         return novoItem;
     }
 
-    public void setNovoItem(String novoItem) {
-        this.novoItem = novoItem;
-    }
-
-    public double getNovoPreco() {
-        return novoPreco;
-    }
-
-    public void setNovoPreco(double novoPreco) {
-        this.novoPreco = novoPreco;
-    }
-
     public String getClienteCpf() {
         return clienteCpf;
     }
@@ -46,10 +34,6 @@ public class Servico {
 
     public void setVendedorEmail(String vendedorEmail) {
         this.vendedorEmail = vendedorEmail;
-    }
-
-    public LocalDate getDataAtual() {
-        return dataAtual;
     }
 
     public void setDataAtual(LocalDate dataAtual) {
@@ -114,7 +98,7 @@ public class Servico {
 
             } catch (IllegalArgumentException exception) {
                 entrada.nextLine();
-                System.out.println("VERIFIQUE SEUS DADOS E TENTE NOVAMENTE.");
+                System.out.println(exception.getMessage());
             }
         } while (deNovo);
     }
